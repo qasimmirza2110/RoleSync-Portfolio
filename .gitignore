@@ -1,0 +1,5 @@
+# OS / editor noise only. This repository has no build process.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

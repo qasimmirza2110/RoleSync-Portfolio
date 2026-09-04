@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="RoleSync">
+  <!--
+    RoleSync brand mark. Geometry is intentionally simple and letterform-based so the mark
+    stays legible down to a 16px favicon, where a pictorial mark turns to mush.
+    Colours are the design-system crimson ramp (src/styles/tokens.css), so the mark sits in
+    the existing UI without a palette change.
+  -->
+  <defs>
+    <linearGradient id="rs-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D95172"/>
+      <stop offset="1" stop-color="#7A1028"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#rs-tile)"/>
+  <g fill="#FFFFFF">
+    <rect x="21" y="17" width="6.5" height="30" rx="1.2"/>
+    <path d="M27.5 17 A10.5 10.5 0 0 1 27.5 38 L27.5 31.7 A4.2 4.2 0 0 0 27.5 23.3 Z"/>
+  </g>
+  <line x1="31.5" y1="35.5" x2="41" y2="47" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round"/>
+</svg>
